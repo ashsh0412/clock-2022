@@ -1,0 +1,69 @@
+.hidden {
+    display: none;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+}
+
+#reset {
+    position: relative;
+    left: 250px;
+    top: 30px;
+}
+
+#clock {
+    text-align: center;
+}
+
+#greeting {
+    text-align: center;
+    position: relative;
+    right: 20px;
+}
+
+img {
+    position:absolute;
+    width:100%;
+    height:100%;
+    left: 0px;
+    top: 0px;
+    right:0px;
+    bottom:0px;
+    z-index: -1;
+    opacity:80%;
+    }
+
+li {
+    text-align: center;
+}
+
+#todo {
+    text-align: center;
+}
+
+#input-todos {
+    background-color: #FFF8DC;
+    width: 500px;
+    height: 30px;
+}
+
+#todo-form {
+    position: relative;
+    left: 90px;
+    margin-top: 20px;
+}
+
+#todo-list {
+    position: relative;
+    top: 70px;
+    right: 240px;
+}
+
+#weather {
+    display: flex;
+    justify-content:left;
+    position: absolute;
+    bottom: 0;
+}
